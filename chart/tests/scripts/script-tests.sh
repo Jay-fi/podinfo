@@ -1,7 +1,7 @@
 #!/bin/bash
 set -ex
 
-echo "--Hellooooo---------------------------------"
+echo "--Hellooooo there---------------------------------"
 echo "BEGIN podinfo jwt test"
 echo "-----------------------------------------"
 TOKEN=$(curl -sd 'test' ${URL}/token | jq -r .token) &&
